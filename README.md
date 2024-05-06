@@ -1,5 +1,5 @@
 # Data Lab
-small testing operations about data analytics field
+Small testing operations about the data analytics field...
 
 ## Dash Example
 The folder dashExampleLocal contains a minimal app that publish a CSV data source to web:
