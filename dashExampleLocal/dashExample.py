@@ -1,8 +1,7 @@
 from flask import Flask
 
 import dash
-import dash_core_components as dcc
-import dash_html_components as html
+from dash import html, dcc
 import plotly.express as px
 import pandas as pd
  
@@ -35,7 +34,7 @@ app.layout = html.Div(children=[
 ])
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run_server(host='localhost', port=5000, debug=True)
 
 
 
@@ -45,6 +44,6 @@ if __name__ == '__main__':
 
 #@app.route('/')
 #def vdata():
-#    return 'Aquí van las gráficas'
+#    return 'Aquí van las hps gráficas'
 
 #app.run(host='localhost', port=5000)
